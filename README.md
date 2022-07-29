@@ -69,11 +69,10 @@ Se penso en un diseño sencillo, amigable con el usuario y de fácil uso .
 
 Se realizo primer boceto a lápiz y papel
 
-<img src="/docsreadme/boceto.jpg"/>
 
 Posteriormente se paso a figma y se vio la paleta de colores
 
-<img src="docsreadme/figma1.jpg">
+![] (docsreadme/figma1.jpg) ![]
 <img src="docsreadme/figma2.jpg">
 <img src="docsreadme/paleta.jpg">
 Se realizo un logo para la aplicación.

@@ -6,13 +6,23 @@ const cipher = {
       for (let i = 0; i < mensaje.length; i++) {
         let letraAscii = mensaje.charCodeAt(i);
         if (letraAscii >= 65 && letraAscii <= 90) {
-          encoded += String.fromCharCode(
-            ((letraAscii - 65 + offset) % 26) + 65
-          );
+          if (offset >0) {
+            encoded += String.fromCharCode(
+              ((letraAscii - 65 + offset) % 26) + 65
+            );
+          } else {
+          encoded+=String.fromCharCode(
+            ((letraAscii - 90 + offset) % 26) + 90);
+          }
         } else if (letraAscii >= 97 && letraAscii <= 122) {
-          encoded += String.fromCharCode(
+          if (offset>0) {
+            encoded += String.fromCharCode(
             ((letraAscii - 97 + offset) % 26) + 97
           );
+          } else {
+            encoded += String.fromCharCode(
+              ((letraAscii - 122 + offset) % 26) + 122 );
+          }  
         } else {
           encoded += String.fromCharCode(letraAscii);
         }
@@ -29,13 +39,24 @@ const cipher = {
       for (let i = 0; i < mensaje.length; i++) {
         let letraAscii = mensaje.charCodeAt(i);
         if (letraAscii >= 65 && letraAscii <= 90) {
-          decoded += String.fromCharCode(
-            ((letraAscii - 90 - offset) % 26) + 90
-          );          
+          if (offset>0) {
+            decoded += String.fromCharCode(
+              ((letraAscii - 90 - offset) % 26) + 90
+            ); 
+          } else {
+            decoded+=String.fromCharCode(
+              ((letraAscii - 90 + offset) % 26) + 90);
+          }
         } else if (letraAscii >= 97 && letraAscii <= 122) {
-          decoded += String.fromCharCode(
-            ((letraAscii - 122 - offset) % 26) + 122
-          );
+          if (offset>0){
+            decoded += String.fromCharCode(
+              ((letraAscii - 122 - offset) % 26) + 122
+              );
+          } else {
+            decoded += String.fromCharCode(
+              ((letraAscii - 122 + offset) % 26) + 122
+            );
+          }
         } else {
           decoded += String.fromCharCode(letraAscii);
         }
