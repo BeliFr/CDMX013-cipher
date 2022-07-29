@@ -5,28 +5,41 @@
     <title>Caesar Cipher</title>
     <link rel="stylesheet" href="style.css" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
- <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
- <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&family=Press+Start+2P&display=swap" rel="stylesheet">"
-</head>
+    <enlace rel="preconectar" href="https://fonts.googleapis.com">
+      <enlace rel="preconectar" href="https://fonts.gstatic.com" crossorigin>
+      <enlace href="https: //fonts.googleapis.com/css2? family= Edu+VIC+WA+NT+Principiante & display=swap" rel="hoja de estilo">
+      <head>
   <body>
-  </body>
-    <header>
-      <h1> TOP<br>SECRET </h1>
-      <h2> Shhhhh </h2>
-    </header>
-    <div class="opc">
-      <button><a href="pantalla2.html">Escribe un mensaje</a></button>
-      <button><a href="pantalla3.html">Tengo un código</a></button>
-    </div>
-      <main class="contentCipher">
-    <div id="root">
-    </div>
-    <head>
-    <script src="index.js" type="module">
-  </script>
-  </main>
-  </form>
-    <output>10</output>
-  </div>
-  </body>
-</html>
+    <section id="bienvenida">
+      <img src="img/e.jpg" width="100%" height="100%">
+      <div class="texto-encima">
+      <h1> ¿Deseas enviar un mensaje secreto? </h1>
+      <p> Top secret es para ti, escribe lo que quieras mandar e ingresa un número para que compartas, si te mandaron un código, ingresalo.</p>
+      <br>
+      <input type="button" value="Comenzar" id="startCifrator">
+      </div>
+    </section>
+    <section id="CipherPage">
+      <legend><h2> Instrucciones que deberas seguir para cifrar tu mensaje:</h2></legend>
+      <ol type="I">
+      <li> Inserta tu mensaje a cifrar en la caja de texto.</li>
+      <li> Selecciona un número para poder desplazar.</li>
+      <li>Da click al boton de Cifrar</li>
+      <li>Comparte tu mensaje cifrado y el número con quien gustes.</li>
+      </ol>
+      <h3> Escribe tu mensaje:</h3>
+      <textarea id="TextToCipher" class="TextoAcifrar" placeholder="Escribe aqui tu mensaje"></textarea>
+      <input id="offset" type="number" placeholder="ejemplo 1">
+      <br>
+      <button id="btn1">Cifrar</button> <button id="btn2">Descifrar</button>
+      <fieldset id="MensajeCifrado">
+      <h4> Tu mensaje cifrado es el siguiente:</h4>
+      <textarea id="cipherText" class="TextoDescifrado"></textarea>
+      <button id="Return">Regresar</button>
+      </fieldset>
+      </section>
+      <script src="index.js" type="module"></script>
+      </body>
+      </html>
+    
+ 

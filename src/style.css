@@ -1,32 +1,117 @@
-body {
-  background: url(img/ccc.jpg);
+body{
+  margin: 0;
+  padding: 0;
+  background:url(img/m.jpg);
+  
 }
-h1 {font-family: 'Press Start 2P', cursive;
-  font-size: 60px;
+#CipherPage{
+  display: none;
+}
+.texto-encima{
+  position: absolute;
+  top:350px;
+  left: 10px;
+}
+h1{
+  color: #EAC4D5;
   text-align: center;
- color: #99ffff;
- line-height: 1.3;
- margin-top: 70px;
+  line-height: 45px;
+  font-size: 45px;
+  font-family:'Edu VIC WA NT Beginner', cursiva;
 }
-h2 {font-family: 'Press Start 2P', cursive;
-  font-size: 40px;
+p{
+  font-size: 30px;
+  line-height: 40px;
+  color:#F2DFD7;
+  font-family:'Edu VIC WA NT Beginner', cursiva;
+}
+#startCifrator{
+  border-color: #D6EADF;
+  color: #5957b1;
+  background-color: #FFCBCB;
+  border-radius: 20px;
+  font-weight: 600;
+  padding-left: 40px;
+  padding-right: 40px;
+  margin-left: 680px;
+  margin-right: 80px;
+  margin-top: 0px ;
+}
+#CipherPage{
+  background:url(img/m.jpg);
+  background-size: cover;
+  width:"110%";
+  height:"110%";
+  margin: 0;
+  padding: 0;
+}
+h2{
+  color: #EAC4D5;
+  font-size: 43px;
   text-align: center;
- color: #cccc33;
-
-}
-div {
-  font-family: 'Press Start 2P', cursive;
+  }
+  h3{
+  color: #EAC4D5;
+  font-size: 33px;
   text-align: center;
-}
-button{
-  padding: 18px;
-  background-color: #00DBDE;
-background-image: linear-gradient(90deg, #00DBDE 0%, #FC00FF 100%);
-  color:bisque;
-  border-radius: 26px;
-  margin-right: 20px;
-  margin-left: 20px;
-}
-.opc{
-  margin-top: 90px;
-}
+  }
+  h4{
+    color: #EAC4D5;
+    font-size: 33px;
+    text-align: center;
+  }
+  body{
+  justify-content: center;
+  }
+  button {
+    border-color: #736CED;
+    color: white;
+    background-color: #9F9FED;
+    border-radius: 40px;
+    font-weight:600;
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 450px;
+    margin-right: 8px;
+    width: 100px;
+    }
+    #TextToCipher{
+      font-size: 25px;
+      color: black;
+      padding: 2px;
+      margin: 10px;
+      width: 50%;
+      height: 50px;
+      border-radius: 20px;
+      margin-left: 400px;
+      margin-top: 2px;
+    }
+    fieldset { 
+      border-color: transparent;
+      padding: 10px;
+    }
+    #cipherText {
+      font-size: 25px;
+      color: black;
+      padding: 2px;
+      margin: 10px;
+      width: 50%;
+      height: 50px;
+      border-radius: 20px;
+      margin-left: 400px;
+      margin-top: 2px;
+      }
+      input{
+      border-radius: 5px;
+      margin-left: 680px;
+      }
+      ol {
+      align-content: center;
+      text-align: center;
+      list-style-position: inside;
+      color: #EAC4D5;
+      font-size: 30px;
+      font-family: 'Edu VIC WA NT Beginner', cursiva;
+      }
+  
+  
