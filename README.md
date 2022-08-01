@@ -78,8 +78,6 @@ Asimismo se realizo un logo para que sea la marca de la aplicación,con la palet
 Derivado del logo, se baso en la paleta de colores , para el fondo, los textos y botones.
 <img src="/images/paleta.jpg" width="700" >
 
-<img src="/images/paletas.jpg" width="700" >
-
 
 ## 3. Objetivos de aprendizaje
 
