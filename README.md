@@ -64,17 +64,22 @@ Se construyo una aplicacion web que interactua con los usuarios a través del na
 
 PLANEACIÓN 
 
-Se penso en un diseño sencillo, amigable con el usuario y de fácil uso .
-
+Se penso en un diseño sencillo, amigable con el usuario y de fácil uso . 
 Se realizo primer boceto a lápiz y papel
-
+<img src="/images/boceto.jpg" width="700" >
 
 Posteriormente se paso a figma y se vio la paleta de colores
+<img src="/images/figma1.jpg" width="700" >
+<img src="/images/figma2.jpg" width="700" >
 
-![] (docsreadme/figma1.jpg) ![]
-<img src="docsreadme/figma2.jpg">
-<img src="docsreadme/paleta.jpg">
-Se realizo un logo para la aplicación.
+Asimismo se realizo un logo para que sea la marca de la aplicación,con la paleta de colores, y forma de shh de mensaje en relación al secreto.
+<img src="/images/logo.jpg" width="700" >
+
+Derivado del logo, se baso en la paleta de colores , para el fondo, los textos y botones.
+<img src="/images/paleta.jpg" width="700" >
+
+<img src="/images/paletas.jpg" width="700" >
+
 
 ## 3. Objetivos de aprendizaje
 
@@ -113,33 +118,22 @@ Reflexiona y luego marca los objetivos que has llegado a entender y aplicar en t
 
 ### Primeros pasos
 
-1. Antes que nada, asegúrate de tener un :pencil: editor de texto en
-   condiciones, algo como [Atom](https://atom.io/) o
+1. Se descargo para trabajar
    [Code](https://code.visualstudio.com/).
-2. Para ejecutar los comandos a continuación necesitarás una :shell:
+2. Para ejecutar los comandos fue con :shell:
    [UNIX Shell](https://curriculum.laboratoria.la/es/topics/shell),
-   que es un programita que interpreta líneas de comando (command-line
-   interpreter) así como tener [git](https://curriculum.laboratoria.la/es/topics/scm/01-git)
-   instalado. Si usas un sistema operativo "UNIX-like", como GNU/Linux o MacOS,
-   ya tienes una _shell_ (terminal) instalada por defecto (y probablemente `git`
-   también). Si usas Windows puedes usar la versión completa de [Cmder](https://cmder.net/)
-   que incluye [Git bash](https://git-scm.com/download/win) y si tienes Windows
-   10 o superior puedes usar [Windows Subsystem for Linux](https://docs.microsoft.com/en-us/windows/wsl/install-win10).
-3. Realiza un :fork_and_knife:
+   
+3.Se instalo [git](https://curriculum.laboratoria.la/es/topics/scm/01-git)
+  
+4. Se realizo un :fork_and_knife:
    [fork](https://help.github.com/articles/fork-a-repo/) del repo de tu cohort
    y
    [configurar](https://gist.github.com/BCasal/026e4c7f5c71418485c1) un `remote`
    hacia el mismo.
 4. :arrow_down: [Clona](https://help.github.com/articles/cloning-a-repository/)
    tu _fork_ a tu computadora (copia local).
-5. 📦 Instala las dependencias del proyecto con el comando `npm install`. Esto
+5. Se instalaron las dependencias del proyecto con el comando `npm install`. Esto
    asume que has instalado [Node.js](https://nodejs.org/) (que incluye [npm](https://docs.npmjs.com/)).
-6. Si todo ha ido bien, deberías poder ejecutar las :traffic_light:
-   pruebas unitarias (unit tests) con el comando `npm test`.
-7. Para ver la interfaz de tu programa en el navegador, usa el comando
-   `npm start` para arrancar el servidor web y dirígete a
-   `http://localhost:5000` en tu navegador.
-8. A codear se ha dicho! :rocket:
 
 ### Recursos y temas relacionados
 
